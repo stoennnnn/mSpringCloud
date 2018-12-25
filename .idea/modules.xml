@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka9100/eureka9100.iml" filepath="$PROJECT_DIR$/eureka9100/eureka9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/mSpringCloud.iml" filepath="$PROJECT_DIR$/mSpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/member/member.iml" filepath="$PROJECT_DIR$/member/member.iml" />
       <module fileurl="file://$PROJECT_DIR$/member2/member (1).iml" filepath="$PROJECT_DIR$/member2/member (1).iml" />

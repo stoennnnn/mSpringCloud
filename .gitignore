@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/workspace.xml
+eureka9100/src/test/
+eureka9100/target/
+member/src/test/
+member/target/
+member2/src/test/
+member2/target/generated-sources/
+order/src/test/
+order/target/
+/.idea/
+/eureka/.mvn/

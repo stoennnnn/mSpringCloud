@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
+        <module name="eureka9100" />
         <module name="member" />
         <module name="member (1)" />
         <module name="mSpringCloud" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
+      <module name="eureka9100" target="1.8" />
       <module name="member" target="1.8" />
       <module name="member (1)" target="1.8" />
       <module name="mSpringCloud" target="1.5" />

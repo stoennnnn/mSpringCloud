@@ -1,6 +1,6 @@
 ###服务端口号
 server:
-  port: 8100
+  port: 9100
 #配置服务名称
 spring:
   application:
@@ -12,14 +12,8 @@ eureka:
     hostname: 127.0.0.1
   client:
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:9100/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8100/eureka/
 ###因为自己是为注册中心，不需要自己注册自己
     register-with-eureka: true
 ###因为自己是为注册中心，不需要检索服务
     fetch-registry: true
-  server:
-    #测试时关闭自我保护机制
-    enable-self-preservation: false
-    #失效时间间隔设为2秒
-    eviction-interval-timer-in-ms: 2000
-
