@@ -4,40 +4,40 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zql.member</groupId>
-    <artifactId>member</artifactId>
+    <groupId>com.zql</groupId>
+    <artifactId>zookeeper</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!--统一定义版本-->
     <parent>
         <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
+        <artifactId>spring-boot-parent</artifactId>
         <version>2.0.1.RELEASE</version>
     </parent>
-
-    <!-- 管理依赖 -->
+    <!--管理依赖-->
     <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Finchley.M7</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>Finchley.M7</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
         </dependencies>
     </dependencyManagement>
+        <!--springboot整合web组件-->
     <dependencies>
-        <!-- SpringBoot整合Web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!-- SpringBoot整合eureka客户端 -->
+        <!--springboot整合zookeeper客户端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
         </dependency>
     </dependencies>
-    <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->
+    <!--依赖仓库-->
     <repositories>
         <repository>
             <id>spring-milestones</id>
@@ -48,5 +48,4 @@
             </snapshots>
         </repository>
     </repositories>
-
 </project>

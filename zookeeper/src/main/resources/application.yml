@@ -1,0 +1,12 @@
+##服务端口号
+server:
+  port: 8200
+#服务器别名
+spring:
+  application:
+    name:  zookeeper-member
+  cloud:
+    zookeeper:
+      connnect-string: 127.0.0.1:2181
+
+

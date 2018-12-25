@@ -11,3 +11,7 @@ order/src/test/
 order/target/
 /.idea/
 /eureka/.mvn/
+zookeeper/src/test/
+zookeeper/target/
+zookeeper8201/src/test/
+zookeeper8201/target/
