@@ -1,0 +1,14 @@
+##服务端口号
+server:
+  port: 8502
+#服务器别名
+spring:
+  application:
+    name:  consul-member
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        hostname: 192.168.74.254
+

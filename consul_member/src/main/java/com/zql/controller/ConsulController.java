@@ -1,4 +1,4 @@
-package com.zql.api.controller;
+package com.zql.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by 张启磊 on 2018-12-25.
+ * Created by 张启磊 on 2019-1-2.
  */
 @RestController
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ZkMemberController {
+public class ConsulController {
     @Value("${server.port}")
     private String port;
     @RequestMapping("/getmemeber")
@@ -21,7 +21,7 @@ public class ZkMemberController {
         return "member服务，端口号为："+port;
     }
     public static void main(String[] args) {
-        SpringApplication.run(ZkMemberController.class,args);
+        SpringApplication.run(ConsulController.class,args);
     }
 
 }

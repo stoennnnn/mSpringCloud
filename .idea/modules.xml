@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul_member/consul_member.iml" filepath="$PROJECT_DIR$/consul_member/consul_member.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka9100/eureka9100.iml" filepath="$PROJECT_DIR$/eureka9100/eureka9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/mSpringCloud.iml" filepath="$PROJECT_DIR$/mSpringCloud.iml" />

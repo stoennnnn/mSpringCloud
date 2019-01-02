@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consul_member" />
         <module name="eureka" />
         <module name="eureka9100" />
         <module name="member" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consul_member" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka9100" target="1.8" />
       <module name="member" target="1.8" />

@@ -21,6 +21,7 @@ public class APPOrder {
 
     /**
      * 解决找不到RestTemplate，应该把RestTemplate注册到SpringBoot容器中
+     * @LoadBalance开启本地的负载均衡
      * @return
      */
     @Bean

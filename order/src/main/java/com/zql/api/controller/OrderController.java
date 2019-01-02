@@ -1,9 +1,13 @@
 package com.zql.api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.List;
 
 /**
  * Created by 26725 on 2018/12/24.
@@ -12,6 +16,9 @@ import org.springframework.web.client.RestTemplate;
 public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
+
+    @Autowired
+    private DiscoveryClient discoveryClient;
 
     /**
      * 订单服务调用会员服务
@@ -30,4 +37,15 @@ public class OrderController {
         String forObject = restTemplate.getForObject(url, String.class);
         return "订单服务测试"+forObject;
     }
+    /**
+     * 服务发现
+     * @return
+     */
+    @RequestMapping("/discoveryCilent")
+    public List<ServiceInstance> discoveryCilent(){
+        List<ServiceInstance> instances = discoveryClient.getInstances("zookeeper-member");
+        return instances;
+    }
+
+
 }
