@@ -9,7 +9,9 @@
         <module name="consul_member" />
         <module name="eureka" />
         <module name="eureka9100" />
+        <module name="eureka_memeber_8002" />
         <module name="member" />
+        <module name="memeber8001" />
         <module name="mSpringCloud" />
         <module name="order" />
         <module name="zookeeper" />
@@ -20,8 +22,10 @@
       <module name="consul_member" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka9100" target="1.8" />
+      <module name="eureka_memeber_8002" target="1.8" />
       <module name="member" target="1.8" />
       <module name="member (1)" target="1.8" />
+      <module name="memeber8001" target="1.5" />
       <module name="mSpringCloud" target="1.5" />
       <module name="order" target="1.8" />
       <module name="zookeeper" target="1.5" />

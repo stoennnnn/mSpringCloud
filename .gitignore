@@ -1,9 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitignore
-.idea/workspace.xml
-eureka9100/src/test/
-eureka9100/target/
-member/src/test/
+!.gitignore
+!.idea/workspace.xml
+!eureka9100/src/test/
+!eureka9100/target/
+!member/src/test/
 member/target/
 member2/src/test/
 member2/target/generated-sources/
@@ -15,3 +15,5 @@ zookeeper/src/test/
 zookeeper/target/
 zookeeper8201/src/test/
 zookeeper8201/target/
+!/member2/src/test/java/
+/order/target/
