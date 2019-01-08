@@ -19,14 +19,14 @@ public class RibbonMemeberController {
     private DiscoveryClient discoveryClient;
     @Autowired
     private RestTemplate restTemplate;
-
+    private int reqCount = 1;
     @RequestMapping("/ribbon")
     public String ribbonMember(){
-        int reqCount = 1;
+
         //利用DiscoveryClient获取服务列表
         //计算出需要调用的服务端编号
         //获取编号对应的地址
-        String url = getInstance(reqCount);
+        String url = getInstance();
         //利用restTemplate调用
         String object = restTemplate.getForObject(url + "/getMember", String.class);
         return object;
@@ -35,13 +35,14 @@ public class RibbonMemeberController {
 
     /**
      * 获取服务的ip和port
-     * @param reqCount
      * @return
      */
-    public String getInstance(int reqCount){
+    public String getInstance(){
         List<ServiceInstance> instances = discoveryClient.getInstances("COM.ZQL.MEMBER");
+        if(null ==instances &&instances.size()==0)
+            return null;
         int repCount = instances.size();
-        int serverIndex = reqCount % reqCount;
+        int serverIndex = reqCount % repCount;
         String url = instances.get(serverIndex).getUri().toString();
         return  url;
     }

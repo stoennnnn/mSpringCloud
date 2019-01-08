@@ -17,3 +17,12 @@ zookeeper8201/src/test/
 zookeeper8201/target/
 !/member2/src/test/java/
 /order/target/
+consul_member/src/test/
+consul_member/target/
+eureka9100/target/
+eureka_member_8001/target/generated-sources/
+eureka_memeber_8002/target/
+eureka_order_8010/target/classes/com/zql/api/APPOrder.class
+eureka_order_8010/target/classes/com/zql/api/controller/FeignController.class
+eureka_order_8010/target/classes/com/zql/api/feign/
+eureka_order_8010/target/generated-sources/

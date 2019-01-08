@@ -3,10 +3,10 @@ package com.zql.api.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -14,13 +14,13 @@ import java.util.List;
  * Created by 26725 on 2018/12/24.
  */
 @RestController
+@EnableFeignClients //开启feign客户端
 public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
 
     @Autowired
     private DiscoveryClient discoveryClient;
-
     /**
      * 订单服务调用会员服务
      * @return
@@ -41,7 +41,7 @@ public class OrderController {
         return "redirect:/ribboon";
     }
     /**
-     * 服务发现
+     * 测试udiscoverClient服务发现功能
      * @return
      */
     @RequestMapping("/discoveryCilent")
@@ -49,6 +49,7 @@ public class OrderController {
         List<ServiceInstance> instances = discoveryClient.getInstances("zookeeper-member");
         return instances;
     }
+
 
 
 }

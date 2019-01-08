@@ -1,4 +1,4 @@
-package com.zql.eureka;
+package com.zql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

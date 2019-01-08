@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class MemberController {
-    @Value("(${port}")
+    @Value("(${server.port}")
     private String port;
 
     @RequestMapping("/getMember")
