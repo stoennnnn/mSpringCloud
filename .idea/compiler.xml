@@ -14,7 +14,6 @@
         <module name="memeber8001" />
         <module name="mSpringCloud" />
         <module name="order" />
-        <module name="zookeeper" />
         <module name="zookeeper8201" />
       </profile>
     </annotationProcessing>

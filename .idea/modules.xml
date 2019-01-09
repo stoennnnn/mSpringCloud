@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/consul_member/consul_member.iml" filepath="$PROJECT_DIR$/consul_member/consul_member.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka9100/eureka9100.iml" filepath="$PROJECT_DIR$/eureka9100/eureka9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul_member_8502/consul_member.iml" filepath="$PROJECT_DIR$/consul_member_8502/consul_member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_member_8001/eureka_member_8001.iml" filepath="$PROJECT_DIR$/eureka_member_8001/eureka_member_8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_memeber_8002/eureka_memeber_8002.iml" filepath="$PROJECT_DIR$/eureka_memeber_8002/eureka_memeber_8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_order_8010/eureka_order_8010.iml" filepath="$PROJECT_DIR$/eureka_order_8010/eureka_order_8010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server_8100/eureka_server_8100.iml" filepath="$PROJECT_DIR$/eureka_server_8100/eureka_server_8100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server_9100/eureka_server_9100.iml" filepath="$PROJECT_DIR$/eureka_server_9100/eureka_server_9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/mSpringCloud.iml" filepath="$PROJECT_DIR$/mSpringCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_member_8001/member.iml" filepath="$PROJECT_DIR$/eureka_member_8001/member.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_order_8010/order.iml" filepath="$PROJECT_DIR$/eureka_order_8010/order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zookeeper_8200/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper_8200/zookeeper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zookeeper8201/zookeeper8201.iml" filepath="$PROJECT_DIR$/zookeeper8201/zookeeper8201.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper_8201/zookeeper8201.iml" filepath="$PROJECT_DIR$/zookeeper_8201/zookeeper8201.iml" />
     </modules>
   </component>
 </project>
