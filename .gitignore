@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 !.gitignore
 !.idea/workspace.xml
+.iml
 !eureka9100/src/test/
 !eureka9100/target/
 !member/src/test/
@@ -27,3 +28,16 @@ eureka_order_8010/target/classes/com/zql/api/controller/FeignController.class
 eureka_order_8010/target/classes/com/zql/api/feign/
 eureka_order_8010/target/generated-sources/
 /mSpringCloud.iml
+eureka_member_8001/member.iml
+eureka_server_9100/eureka.iml
+springcloud_parent/springcloud_api_service/sprincloud_api_service_member/sprincloud_api_service_member.iml
+springcloud_parent/springcloud_api_service/sprincloud_api_service_member/src/
+springcloud_parent/springcloud_api_service/sprincloud_api_service_order/sprincloud_api_service_order.iml
+springcloud_parent/springcloud_api_service/sprincloud_api_service_order/src/
+springcloud_parent/springcloud_api_service/src/
+springcloud_parent/springcloud_service_impl/springcloud_service_impl.iml
+springcloud_parent/springcloud_service_impl/springcloud_service_impl_member/springcloud_service_impl_member.iml
+springcloud_parent/springcloud_service_impl/springcloud_service_impl_member/src/
+springcloud_parent/springcloud_service_impl/springcloud_service_impl_order/springcloud_service_impl_order.iml
+springcloud_parent/springcloud_service_impl/springcloud_service_impl_order/src/
+springcloud_parent/springcloud_service_impl/src/

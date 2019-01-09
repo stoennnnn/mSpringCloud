@@ -1,4 +1,4 @@
-package com.zql.api.controller;
+package com.zql.api;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

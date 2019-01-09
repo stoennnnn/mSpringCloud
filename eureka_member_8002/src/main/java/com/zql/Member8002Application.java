@@ -1,4 +1,4 @@
-package com.zql.controller;
+package com.zql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
