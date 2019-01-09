@@ -10,6 +10,7 @@
         <module name="eureka" />
         <module name="eureka9100" />
         <module name="eureka_memeber_8002" />
+        <module name="eureka_order_8010" />
         <module name="member" />
         <module name="memeber8001" />
         <module name="mSpringCloud" />
@@ -22,6 +23,7 @@
       <module name="eureka" target="1.8" />
       <module name="eureka9100" target="1.8" />
       <module name="eureka_memeber_8002" target="1.8" />
+      <module name="eureka_order_8010" target="1.8" />
       <module name="member" target="1.8" />
       <module name="member (1)" target="1.8" />
       <module name="memeber8001" target="1.5" />

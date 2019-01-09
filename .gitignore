@@ -26,3 +26,4 @@ eureka_order_8010/target/classes/com/zql/api/APPOrder.class
 eureka_order_8010/target/classes/com/zql/api/controller/FeignController.class
 eureka_order_8010/target/classes/com/zql/api/feign/
 eureka_order_8010/target/generated-sources/
+/mSpringCloud.iml
