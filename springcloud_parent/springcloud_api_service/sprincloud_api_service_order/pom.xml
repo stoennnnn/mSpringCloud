@@ -11,6 +11,13 @@
 
     <groupId>com.zql</groupId>
     <artifactId>sprincloud_api_service_order</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.zql</groupId>
+            <artifactId>springCloud_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
