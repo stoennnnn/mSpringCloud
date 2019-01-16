@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_memeber_8002/eureka_memeber_8002.iml" filepath="$PROJECT_DIR$/eureka_memeber_8002/eureka_memeber_8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_order_8010/eureka_order_8010.iml" filepath="$PROJECT_DIR$/eureka_order_8010/eureka_order_8010.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server_8100/eureka_server_8100.iml" filepath="$PROJECT_DIR$/eureka_server_8100/eureka_server_8100.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka_server_9100/eureka_server_9100.iml" filepath="$PROJECT_DIR$/eureka_server_9100/eureka_server_9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/mSpringCloud.iml" filepath="$PROJECT_DIR$/mSpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper_8201/zookeeper8201.iml" filepath="$PROJECT_DIR$/zookeeper_8201/zookeeper8201.iml" />
     </modules>
