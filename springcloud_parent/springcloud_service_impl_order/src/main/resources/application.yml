@@ -1,6 +1,8 @@
 ###服务启动端口号
 server:
   port: 8011
+  tomcat:
+    max-threads: 10
 ###服务名称(服务注册到eureka名称)
 spring:
     application:
@@ -21,3 +23,10 @@ ribbon:
   ReadTimeout: 5000
   #建立连接后请求资源超时时间
   ConnectTimeout: 5000
+
+#开启Hytrix断路器
+feign:
+  hystrix:
+    enable: true
+  commond:
+    execution
