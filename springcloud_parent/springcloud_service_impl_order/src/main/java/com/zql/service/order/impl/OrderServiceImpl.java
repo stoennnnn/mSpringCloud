@@ -29,7 +29,7 @@ public class OrderServiceImpl extends BaseApiService implements OrderService {
      * @param msg
      * @return
      */
-    @Override
+    @Overrid
     @HystrixCommand(fallbackMethod = "getUserInfoHystrixFallback")
     @RequestMapping("/getUserInfoHystrix")
     public ResponseBase order2MemberInfo(String msg) {

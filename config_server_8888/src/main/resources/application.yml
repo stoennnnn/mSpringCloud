@@ -1,0 +1,22 @@
+#把服务注册到eurekaeureka:eureka:
+eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:9100/eureka
+spring:
+  application:
+  #别名
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+        #git地址
+          uri: https://gitee.com/stone2672575920/springCloudConfig.git
+        #搜索目录
+          search-paths:
+            - config
+        #分支
+      label: master
+server:
+  port: 8888
