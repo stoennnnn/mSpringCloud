@@ -4,15 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.zql.member</groupId>
-    <artifactId>member</artifactId>
+    <groupId>com.zql</groupId>
+    <artifactId>config_client_8899</artifactId>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.1.RELEASE</version>
     </parent>
-
     <!-- 管理依赖 -->
     <dependencyManagement>
         <dependencies>
@@ -23,6 +22,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -31,17 +31,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+        </dependency>
         <!-- SpringBoot整合eureka客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <!--Apollo客户端依赖-->
+        <!-- actuator监控中心 -->
         <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-client</artifactId>
-            <version>1.1.1</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
     </dependencies>
     <!-- 注意： 这里必须要添加， 否者各种依赖有问题 -->
     <repositories>
@@ -54,5 +58,6 @@
             </snapshots>
         </repository>
     </repositories>
+
 
 </project>

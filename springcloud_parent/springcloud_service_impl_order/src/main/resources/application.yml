@@ -30,3 +30,11 @@ feign:
     enable: true
   commond:
     execution
+#配置hystrix调用超时时间
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 4000 //设置Hystrix的超时时间为4s
